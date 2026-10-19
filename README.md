@@ -12,13 +12,13 @@ En lugar de corregir datos sin rumbo, se diseñó un **Panel de Control de Audit
 
 El repositorio está organizado en tres etapas clave para mostrar la evolución y el proceso completo de auditoría:
 
-1. **`01_raw_data.xlsx`**: El conjunto de datos original y sin procesar (crudo).
+1. **`01_raw_data.csv`**: El conjunto de datos original y sin procesar (crudo).
 
 
 2. **`02_audit_dashboard.xlsx`**: El archivo que contiene el panel de control de auditoría, las fórmulas de validación, las tablas auxiliares (listas blancas/whitelists) y los registros con errores intencionales.
 
 
-3. **`03_clean_data.xlsx`**: El dataset totalmente depurado, validado y listo para producción.
+3. **`03_clean_data.csv`**: El dataset totalmente depurado, validado y listo para producción.
 
 
 
