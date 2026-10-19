@@ -15,7 +15,7 @@ El repositorio está organizado en tres etapas clave para mostrar la evolución 
 1. **`01_raw_data.csv`**: El conjunto de datos original y sin procesar (crudo).
 
 
-2. **`02_audit_dashboard.xlsx`**: El archivo que contiene el panel de control de auditoría, las fórmulas de validación, las tablas auxiliares (listas blancas/whitelists) y los registros con errores intencionales.
+2. **`02_audit_dashboard.xlsx`**: El archivo que contiene el panel de control de auditoría, las fórmulas de validación, las tablas auxiliares (listas blancas/whitelists) y los registros con errores intencionales. Ademas viene con una guia en caso de querer limpiarlo manualmente
 
 
 3. **`03_clean_data.csv`**: El dataset totalmente depurado, validado y listo para producción.
