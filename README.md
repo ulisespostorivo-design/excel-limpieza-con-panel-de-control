@@ -2,11 +2,13 @@
 
 ## 📌 Descripcion del Proyecto
 
-Este proyecto de Excel se enfoca en Data Quality (control de calidad de datos) y en la deteccion de inconsistencias antes de realizar la limpieza. El objetivo es evitar correcciones innecesarias y mantener un registro de los problemas encontrados.
+Este proyecto utiliza un dataset sintetico de recursos humanos obtenido del repositorio [Pulak-PSR/hr-data-cleaning](https://github.com/Pulak-PSR/hr-data-cleaning), concretamente del archivo `hr_data_raw.csv`. El autor describe el conjunto como datos ficticios de 5.000 registros con errores introducidos intencionalmente para practicar la limpieza y el control de calidad.
 
-Se desarrollo un panel de control que utiliza formulas para detectar, contar y clasificar diferentes tipos de errores. Los indicadores se actualizan cuando cambian los datos y permiten identificar que controles presentan problemas y cuantos registros estan afectados.
+Mientras trabajaba con estos datos, me surgio una pregunta: si en el futuro incorporo nuevos registros y aparece un error, ¿como me voy a dar cuenta sin revisar manualmente miles de filas?
 
-El archivo tambien incluye una guia con instrucciones para localizar los registros incorrectos, corregirlos y comprobar los resultados. El panel informa sobre los problemas detectados, pero no corrige automaticamente los datos.
+A partir de esa idea, cree un Panel de Control de Auditoria en Excel que utiliza formulas para detectar y contabilizar distintos tipos de inconsistencias. En lugar de revisar todos los registros a ciegas, puedo cargar los datos y consultar el panel para comprobar que controles presentan errores y cuantos se detectaron.
+
+El archivo tambien incluye una guia que explica como localizar los registros afectados y corregirlos. De esta manera, el panel funciona como un sistema de aviso que permite concentrar la limpieza en los datos que realmente necesitan revision, en lugar de repetir todo el proceso cada vez que se actualiza el conjunto de datos.
 
 ---
 
