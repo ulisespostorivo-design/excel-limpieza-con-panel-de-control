@@ -1,7 +1,3 @@
-Aquí tienes una propuesta completa y profesional para el **README.md** de tu repositorio, redactada íntegramente en español, con títulos y subtítulos claros, y enfocada exactamente en lo que construiste: un **panel de control de auditoría para limpieza guiada**, sin asumir automatizaciones por macros o scripts.
-
----
-
 # Excel: Limpieza con Panel de Control (Auditoría y Control de Calidad de Datos)
 
 ## 📌 Descripción del Proyecto
