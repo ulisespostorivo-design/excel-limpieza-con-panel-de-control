@@ -70,7 +70,7 @@ Cuenta todas las apariciones de un ID repetido (incluyendo la primera). Los vac�
 ```
 Detecta espacios al inicio, al final o dobles. Se aplica a columnas de texto relevantes.
 
-### 3. Formato de mayúsculas (Proper Case)
+### 3. Formato de mayúsculas
 ```excel
 =SUMAPRODUCTO((Datos[first_name]<>"")*(NO(IGUAL(Datos[first_name],NOMPROPIO(Datos[first_name])))))
 ```
