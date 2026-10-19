@@ -16,11 +16,11 @@ El archivo tambien incluye una guia que explica como localizar los registros afe
 
 El repositorio contiene tres archivos que muestran las distintas etapas del proceso:
 
-1. **`01_raw_data.csv`**: conjunto de datos original, sin limpiar, utilizado como punto de partida.
+1. **`01_HR_datos_crudos.csv`**: conjunto de datos original, sin limpiar, utilizado como punto de partida.
 
-2. **`02_audit_dashboard.xlsx`**: archivo de Excel con el panel de control, las formulas de validacion, las listas de valores permitidos y una guia para realizar la limpieza manualmente.
+2. **`02_HR_panel_auditoria.xlsx`**: archivo de Excel con el panel de control, las formulas de validacion, las listas de valores permitidos y una guia para realizar la limpieza manualmente.
 
-3. **`03_clean_data.csv`**: version final del conjunto de datos despues de aplicar las correcciones. Esta preparada para su importacion a una base de datos o para continuar con su analisis.
+3. **`03_HR_datos_limpios.csv`**: version final del conjunto de datos despues de aplicar las correcciones. Esta preparada para su importacion a una base de datos o para continuar con su analisis.
 
 ---
 
